@@ -12,6 +12,8 @@ h6 {
   padding:0;
   margin:0;
   font-family: "Roboto", sans-serif;
+  text-align: center;
+  flex-grow: 1;
 }
 
 .clear-fix {
@@ -26,7 +28,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #fff;
   line-height: 48px;
   display: inline;
 }
@@ -67,7 +69,6 @@ h5 {
   font-size: 14px;
   color: #999;
   line-height: 16px;
-  float: left;
 }
 
 .location-text {
@@ -75,7 +76,7 @@ h5 {
   font-size: 14px;
   color: #999;
   line-height: 16px;
-  float: right;
+  margin-bottom: 20px;
 
 }
 
@@ -88,8 +89,9 @@ p {
 a {
   color: #1199c3;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 0;
   display: block;
+  margin-bottom: 20px;
 }
 
 .welcome-message {
@@ -100,16 +102,16 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: ##fff;
   display: none;
 }
 
 .orange {
-  background-color: #f5ae23;
+  background-color: ##fff;
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: ##fff;
 }
 
 .white-text {
@@ -129,7 +131,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #2397F5;
 }
 
 .flex-box {
@@ -138,12 +140,7 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-<<<<<<< HEAD
-  padding: 10px;
-=======
   padding: 20px;
-  border: 1px red solid;
->>>>>>> parent of d773b02... Merge remote-tracking branch 'origin/master'
 }
 
 .center-content {
@@ -171,6 +168,10 @@ span {
 
 #lets-connect {
   text-align: center;
+}
+.biopic {
+    border-radius: 50%;
+    display: block;
 }
 
 /* Media queries to handle various device widths */
@@ -216,4 +217,9 @@ span {
   .biopic {
     display: block;
   }
+}
+
+#name {
+    text-align: left;
+    width: 100%;
 }
